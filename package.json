@@ -1,12 +1,15 @@
+
 {
   "name": "bsm-arena",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.21.2",
-    "ws": "^8.18.0"
+    "ws": "^8.18.0",
+    "tmi.js": "^1.8.5"
   }
 }
